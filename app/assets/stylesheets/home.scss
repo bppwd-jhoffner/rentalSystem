@@ -1,0 +1,70 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body{
+	background-image: url("new_year_background.png");
+}
+
+#header {
+    padding-top: 5px;
+    padding-bottom: 5px;
+	font-size: 150%;
+	background-color: #e51b24;
+    color: #fff;
+}
+
+#navbar a, #sign-in a {
+    color: #fff;
+}
+
+#sign-in {
+    padding-top: 10px;
+}
+
+#footer {
+	text-align: center;
+	background-color: #e51b24;
+	color: #fff;
+}
+
+#header a:hover {
+    text-decoration: none;
+	background-color: white;
+	color: #666;
+}
+
+#header img {
+	float: left;
+}
+
+#navbar{
+	padding-top: 10px;
+}
+
+#logo img{
+	width: 100px;
+}
+
+.carousel-inner > .item > img, .carousel-inner > .item > a > img {
+    height: 25em;
+    margin: auto;
+}
+
+#carousel {
+    margin-top: 15px;
+    margin-bottom: 15px; 
+}
+
+#article {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+#art1, #art2 {
+    border-right: 1px solid black;
+}
+
+#description-title {
+    text-align: center;
+}

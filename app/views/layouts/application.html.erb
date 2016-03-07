@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>RAILSTest</title>
+        <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+        <%= stylesheet_link_tag    'home', media: 'all', 'data-turbolinks-track' => true %>
+        <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+        <%= csrf_meta_tags %>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <%= render partial: "layouts/navigation" %>
+            <div class="row" id="content">
+                <div class="col-md-12" id="main">
+                    <%= yield %>
+                </div>
+            </div>
+        </div>
+        <%= render partial: "layouts/footer" %>
+    </body>
+</html>
